@@ -1,25 +1,25 @@
-  {
-    "name": "Go Exclude",
-    "version": "1.0",
-    "description": "Exclude Certain Files from appearing in the Github files change view",
-    "permissions": [
-      "storage", "declarativeContent", "activeTab"
-    ],
-    "browser_action": {
-      "default_popup": "popup.html",
-      "js": ["jquery.min.js", "popup.js", "do.js"],
-      "default_icon": {
-        "16": "images/gopher16.png",
-        "32": "images/gopher32.png",
-        "48": "images/gopher48.png",
-        "128": "images/gopher128.png"
-      }
-    },
-    "icons": {
+{
+  "name": "Go Exclude",
+  "version": "1.0",
+  "description": "Exclude Certain Files from appearing in the Github files change view",
+  "permissions": [
+    "storage", "declarativeContent", "activeTab"
+  ],
+  "browser_action": {
+    "default_popup": "./lib/popup.html",
+    "js": ["./lib/js/jquery.min.js", "./lib/js/popup.js", "./lib/js/do.js"],
+    "default_icon": {
       "16": "images/gopher16.png",
       "32": "images/gopher32.png",
       "48": "images/gopher48.png",
       "128": "images/gopher128.png"
-    },
-    "manifest_version": 2
-  }
+    }
+  },
+  "icons": {
+    "16": "images/gopher16.png",
+    "32": "images/gopher32.png",
+    "48": "images/gopher48.png",
+    "128": "images/gopher128.png"
+  },
+  "manifest_version": 2
+}
